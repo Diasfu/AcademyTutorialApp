@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:orientation="vertical"
+    tools:context="com.example.diasfu.academytutorialapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/greetings_message"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:text="@string/greeting_message"
+        android:textColor="@color/sky_blue"
+
+        />
+
+    <EditText
+        android:id="@+id/enter_name_hint"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="@string/enter_name_hint"
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/main_screen_button_text"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@android:color/black"
+        android:onClick="onButtonClicked"
+        android:soundEffectsEnabled="true"
+
+        />
+
+    <Button
+        android:onClick="onViewImageButtonNot"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/main_screen_button2"
+        android:background="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+
+        />
+    <!--button to go to another screen-blanco-->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="onViewImageButton"
+        android:text="@string/main_screen_button_blanco"
+        android:fontFamily="cursive"
+        android:textColor="@color/fuchsia_pink"
+        />
+    <!--Button for the fill out form-->
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="@string/form_button"
+        android:textColor="@color/black"
+        android:onClick="formButtonOption"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/pictures_button"
+        android:onClick="picturesButton"
+        />
+
+</LinearLayout>

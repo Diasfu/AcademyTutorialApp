@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AcademyTutorialApp</string>
+
+    <!--here you store strings, and reference them from here-->
+
+    <string name="greeting_message">Hello, welcome to my App!</string>
+    <string name="enter_name_hint">Please enter your name</string>
+    <string name="main_screen_button_text">Press here!</string>
+
+    <!-- to use ' you need to add \ before it-->
+    <string name="main_screen_button2">Don\'t press this!</string>
+
+    <string name="main_screen_button_blanco">Press this for some Cute\'ness</string>
+
+    <!--this is for new screen, with information about a person-->
+    <string name="form_screen_greetings">Please provide the following information</string>
+    <string name="user_name_hint">Your Name:</string>
+    <string name="user_age_hint">Your Age:</string>
+    <string name="user_email_hint">Your Email:</string>
+    <string name="user_phone_hint">Your phone no.:</string>
+    <string name="submit_button">Submit your information</string>
+    <string name="form_button">Fill out a Form</string>
+    <string name="save_button">Click to confirm and Save</string>
+    <string name="pictures_button">Look at some pictures</string>
+</resources>
