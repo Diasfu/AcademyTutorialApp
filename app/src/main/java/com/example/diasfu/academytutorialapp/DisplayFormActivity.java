@@ -20,7 +20,7 @@ public class DisplayFormActivity extends AppCompatActivity {
     public static final String EMAIL_KEY= "USERMAIL";
     public static final String PHONENUM_KEY= "USERPHONENUM";
 
-//Comment quick change
+//Comment quick change adding more to this amazing comment...
 
     private EditText mDataField;
 
